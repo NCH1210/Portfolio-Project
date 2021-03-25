@@ -1,4 +1,36 @@
+:root {
+  --primary-color: #f9f7fe;
+  --secondary-color: #6c63ff;
+}
+
 body {
+  background: var(--primary-color);
+  text-align: center;
+}
+
+h1,
+p {
   font-family: "Playfair Display", serif;
+  font-size: 24px;
+}
+
+h1 {
+  font-size: 96px;
+}
+
+h2 {
   font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+.contact-button {
+  background-color: var(--secondary-color);
+  color: white;
+  margin-top: 20px;
+  padding: 10px 20px 10px 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  margin: 100px auto;
 }
