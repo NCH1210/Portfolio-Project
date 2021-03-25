@@ -34,3 +34,8 @@ h2 {
 .container {
   margin: 100px auto;
 }
+
+.btn {
+  background-color: var(--secondary-color);
+  color: white;
+}
