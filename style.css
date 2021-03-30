@@ -109,6 +109,11 @@ p {
   max-height: 40px;
 }
 
+.project-line {
+  margin: 100px;
+  font-size: 24px;
+}
+
 footer .contact-box {
   background: var(--secondary-color);
   padding: 30px 120px;
