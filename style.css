@@ -47,6 +47,7 @@ p {
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
+  text-align: center;
 }
 
 nav {
@@ -211,9 +212,6 @@ footer .social-links a:hover {
     padding: 0;
   }
 
-  p {
-    line-height: 2;
-  }
   .hero {
     padding: 80px 20px;
   }
