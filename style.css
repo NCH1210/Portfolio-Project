@@ -207,7 +207,9 @@ footer .social-links a:hover {
     font-size: 30px;
     text-align: center;
   }
-
+  btn {
+    padding: 10px;
+  }
   .hero {
     padding: 80px 20px;
   }
