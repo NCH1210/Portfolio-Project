@@ -21,7 +21,7 @@ h6 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 80px;
   line-height: 1.5;
 }
 
@@ -69,11 +69,11 @@ nav li.active a {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 100px 20px;
 }
 
 .hero p {
-  font-size: 36px;
+  font-size: 24px;
   font-weight: bold;
   margin: 0;
   color: #272142;
@@ -83,7 +83,7 @@ nav li.active a {
   font-family: var(--heading-font-family);
   font-weight: normal;
   line-height: 1.5;
-  font-size: 24px;
+  font-size: 30px;
 }
 
 .btn-branding {
@@ -92,7 +92,7 @@ nav li.active a {
   color: white;
   font-size: 18px;
   line-height: 27px;
-  padding: 15px 30px;
+  padding: 10px 20px;
 }
 
 .btn-branding-outline {
@@ -104,16 +104,19 @@ nav li.active a {
   padding: 15px 30px;
 }
 
-.project-desciption {
+.project-description {
   padding: 120px 60px;
 }
 
 .subtitle {
-  font-size: 50px;
+  font-size: 70px;
 }
 
 .content {
-  padding: 40px 10px;
+  padding: 40px 10px 0 10px;
+  align-content: center;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .content-container h1 {
@@ -126,11 +129,20 @@ nav li.active a {
   font-family: var(--default-font-family);
 }
 
-.img-fluid {
-  max-width: 75%;
+.profilepic {
+  max-width: 70%;
+  display: block;
+  margin: 0 auto;
   height: auto;
-  vertical-align: middle;
+
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.github-link {
   margin: 20px;
+  margin-bottom: 50px;
 }
 
 .logo {
@@ -138,15 +150,25 @@ nav li.active a {
 }
 
 .project-line {
-  margin: 80px;
+  margin: 20px;
   font-size: 24px;
+}
+
+.pic {
+  max-width: 80%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20%;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
 }
 
 footer .contact-box {
   background: var(--secondary-color);
   padding: 30px 120px;
   border-radius: 1px;
-  margin-top: 60px;
+  margin-top: 25px;
 }
 
 .email-link {
@@ -198,7 +220,7 @@ footer .social-links a:hover {
     padding: 80px 20px;
   }
 
-  .project-desciption {
+  .project-description {
     padding: 0;
     text-align: center;
   }

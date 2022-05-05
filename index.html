@@ -55,37 +55,49 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html" title="About Nina">About</a>
+              <a class="nav-link" href="#about" title="About Nina">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="work.html" title="Nina's Work">Work</a>
+              <a class="nav-link" href="#work" title="Nina's Work">Work</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html" title="Contact Nina">Contact</a>
+              <a class="nav-link" href="#contact" title="Contact Nina">Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
     <div class="hero">
-      <p> 🚧 under construction 🚧</p>
-      <br/>
-      <hr/>
-      <br />
-      <h1>Nina</h1>
-      <h2 class="mb-5"> 👩‍💻Front-end developer based in Vienna</h2>
-      <div>
-        <a href="https://github.com/NCH1210/Portfolio-Project" class="btn btn-branding" target="_blank">My Github</a>
-      </div>
+      <div class="row" id="about">
+        <div class="col-lg-6">
+           <h1>Hi I'm Nina</h1>
+            <h2 class="subtitle">👩‍💻Front-end developer, based in Vienna.</h2>
+         
+             <br/>
+            <div class="github-link">
+            <a href="https://github.com/NCH1210/" class="btn btn-branding" target="_blank">My Github</a>
+            </div>
+          </div>
+      
+          <div class="col-lg-6"><img
+            src="images/me.jpg"
+            class="img-fluid rounded-circle d-block profilepic"
+            width="350px"
+          />
+      
+          </div>
     </div>
+  </div>
     <p class="text-center project-line">
-      Here are some of my best projects to be showcased </br></br>
-      <i class="fas fa-angle-double-down text-muted"></i>
+      Here are some of my best projects to be showcased </br>
+      <a href="#work"><i class="fas fa-angle-double-down text-muted"></i></a>
     </p>
-    <div class="container">
+
+
+    <div class="container" id="work">
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <img src="images/punschkrapferl.png" class="img-fluid" alt="Punschkrapferl Project Preview" />
+          <img src="images/punschkrapferl.png" class="img-fluid img-thumbnail pic" alt="Punschkrapferl Project Preview" />
         </div>
         <div class="col">
           <div class="project-description">
@@ -97,7 +109,27 @@
           </div>
         </div>
       </div>
-      <div class="row mb-5">
+     
+      <div class="row">
+
+        <div class="col">
+          <div class="project-description">
+            <h2 class="mb-5">Vanilla JS Weather App</h2>
+            <p class="mb-5 text-muted">
+             Basic Concept of a Weather App which was used as outline to be transformed into the React Weather App.
+            </p>
+            <a href="https://ecstatic-lamport-7da639.netlify.app" target="_blanck" class="btn btn-branding-outline"> Learn more </a>
+          </div>
+        </div>
+           <div class="col d-none d-lg-block">
+          <img src="images/weather-app.png" class="img-fluid img-thumbnail pic" alt="Weather Project Preview" />
+        </div>
+      </div>
+      <br/>
+       <div class="row mb-5">
+         <div class="col d-none d-lg-block">
+          <img src="images/weather-react.png" class="img-fluid img-thumbnail pic" alt="Weather Project Preview" />
+        </div>
         <div class="col">
           <div class="project-description">
             <h2 class="mb-5">React Weather App</h2>
@@ -109,25 +141,8 @@
     </a>
           </div>
         </div>
-        <div class="col d-none d-lg-block">
-          <img src="images/weather-react.png" class="img-fluid" alt="Weather Project Preview" />
-        </div>
+        
       </div>
-      <div class="row">
-        <div class="col d-none d-lg-block">
-          <img src="images/weather-app.png" class="img-fluid" alt="Weather Project Preview" />
-        </div>
-        <div class="col">
-          <div class="project-description">
-            <h2 class="mb-5">Vanilla JS Weather App</h2>
-            <p class="mb-5 text-muted">
-             Basic Concept of a Weather App which was used as outline to be transformed into the React Weather App.
-            </p>
-            <a href="https://ecstatic-lamport-7da639.netlify.app" target="_blanck" class="btn btn-branding-outline"> Learn more </a>
-          </div>
-        </div>
-      </div>
-      <br/>
       <div class="row mb-5">
         <div class="col">
           <div class="project-description">
@@ -139,29 +154,25 @@
           </div>
         </div>
         <div class="col d-none d-lg-block">
-          <img src="images/dictionary.png" class="img-fluid" alt="Dictionary Project Preview" />
+          <img src="images/dictionary.png" class="img-fluid img-thumbnail pic" alt="Dictionary Project Preview" />
         </div>
       </div>
     </div>
 
-    
-
     <footer>
-      <div class="contact-box d-block justify-content-center">
+      <div class="contact-box d-block justify-content-center" id="contact">
         <h4 class="text-center">Work Inquiry</h4>
 
         <p class="text-muted text-center">Let's work together!</p>
         <div class="text-center">
-          <a href="#" class="btn btn-branding">Contact me</a>
+          <a href="mailto:nhaide@live.de"  target="_blanck" class="btn btn-branding">Contact me</a>
         </div>
       </div>
-      <div class="d-flex justify-content-center mb-5">
-        <a href="mailto:" class="email-link">nina's email</a>
-      </div>
+  
       <div class="social-links d-flex justify-content-center mb-5">
-        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a
-        ><a href="#" target="_blank"><i class="fab fa-github"></i></a
-        ><a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.linkedin.com/in/ninahaide/" target="_blank"><i class="fab fa-linkedin"></i></a
+        ><a href="https://github.com/NCH1210/" target="_blank"><i class="fab fa-github"></i></a
+        ><a href="#contact" target="_blank"><i class="fab fa-facebook"></i></a>
       </div>
     </footer>
   
