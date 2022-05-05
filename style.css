@@ -210,6 +210,10 @@ footer .social-links a:hover {
   btn {
     padding: 10px;
   }
+
+  p {
+    line-height: 2;
+  }
   .hero {
     padding: 80px 20px;
   }
