@@ -208,8 +208,8 @@ footer .social-links a:hover {
     font-size: 30px;
     text-align: center;
   }
-  btn {
-    padding: 0;
+  .contactbutton {
+    padding: 10px;
   }
 
   .hero {
