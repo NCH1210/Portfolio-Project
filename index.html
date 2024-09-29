@@ -7,9 +7,9 @@
     <title>Nina's Portfolio</title>
 
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -20,18 +20,19 @@
     <link rel="stylesheet" href="style.css" />
 
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
     <script
-      src="https://kit.fontawesome.com/ddc3ee268a.js"
+      src="https://kit.fontawesome.com/9bc0d92ff3.js"
       crossorigin="anonymous"
     ></script>
   </head>
   <body>
-    
-    <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-between">
+    <nav
+      class="navbar navbar-expand-lg navbar-light d-flex justify-content-between"
+    >
       <div class="container-fluid">
         <a class="navbar-brand" href="#"
           ><img src="images/logo.png" class="img-fluid d-block logo"
@@ -61,7 +62,9 @@
               <a class="nav-link" href="#work" title="Nina's Work">Work</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact" title="Contact Nina">Contact</a>
+              <a class="nav-link" href="#contact" title="Contact Nina"
+                >Contact</a
+              >
             </li>
           </ul>
         </div>
@@ -70,98 +73,119 @@
     <div class="hero">
       <div class="row" id="about">
         <div class="col-lg-6">
-           <h1>Hi, I'm Nina!</h1>
-            <h2 class="subtitle">👩‍💻Front-end Developer</h2>
-            <br/>
-            <h3>🎓SheCodes Pro Graduate</h3>
-            <br/>
-            <h4>📍based in Vienna</h4>
-         
-             <br/>
-            <div class="github-link">
-            <a href="https://github.com/NCH1210/" class="btn btn-branding" target="_blank">My Github</a>
-            </div>
+          <h1>Hi, I'm Nina!</h1>
+          <h2 class="subtitle">👩‍💻Front-end Developer</h2>
+          <br />
+          <h3>🎓SheCodes Bootcamp Graduate</h3>
+          <br />
+          <h4>📍based in Vienna</h4>
+
+          <br />
+          <div class="github-link">
+            <a
+              href="https://github.com/NCH1210/"
+              class="btn btn-branding"
+              target="_blank"
+              >My Github</a
+            >
           </div>
-      
-          <div class="col-lg-6"><img
+        </div>
+
+        <div class="col-lg-6">
+          <img
             src="images/me.jpg"
             class="img-fluid rounded-circle d-block profilepic"
             width="350px"
           />
-      
-          </div>
+        </div>
+      </div>
     </div>
-  </div>
-    <p class="text-center project-line">
-      Here are some of my best projects to be showcased </br>
+    <p class="text-center project-line mb-5">
+      Here are some of my featured projects <br />
       <a href="#work"><i class="fas fa-angle-double-down text-muted"></i></a>
     </p>
 
-
     <div class="container" id="work">
+    
+
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <img src="images/punschkrapferl.png" class="img-fluid img-thumbnail pic" alt="Punschkrapferl Project Preview" />
-        </div>
-        <div class="col">
-          <div class="project-description">
-            <h5 class="mb-5">Punschkrapferl Page</h5>
-            <p class="mb-5 text-muted">
-             This is one of my first landing pages with HTML, CSS and basic JavaScript. There are muliple pages linked and some alerts and events included.
-            </p>
-            <a href="https://lucid-fermi-e0403f.netlify.app" target="_blanck" class="btn btn-branding-outline"> Visit </a>
-          </div>
-        </div>
-      </div>
-     
-      <div class="row">
-
-        <div class="col">
-          <div class="project-description">
-            <h5 class="mb-5">Vanilla JS Weather App</h5>
-            <p class="mb-5 text-muted">
-             Basic Concept of a Weather App which was used as outline to be transformed into the React Weather App.
-            </p>
-            <a href="https://ecstatic-lamport-7da639.netlify.app" target="_blanck" class="btn btn-branding-outline mb-5"> Learn more </a>
-          </div>
-        </div>
-           <div class="col d-none d-lg-block mb-5">
-          <img src="images/weather-app.png" class="img-fluid img-thumbnail pic" alt="Weather Project Preview" />
-        </div>
-      </div>
-   
-       <div class="row mb-5">
-         <div class="col d-none d-lg-block">
-          <img src="images/weather-react.png" class="img-fluid img-thumbnail pic" alt="Weather Project Preview" />
+          <img
+            src="images/weather-react.png"
+            class="img-fluid img-thumbnail pic"
+            alt="Weather Project Preview"
+          />
         </div>
         <div class="col">
           <div class="project-description">
             <h5 class="mb-5">React Weather App</h5>
             <p class="mb-5 text-muted">
-             As my first React project I chose to display a weather app including a search function with API connection.
+              As my first React project I chose to display a weather app
+              including a search function with API connection.
             </p>
-            <a href="https://weather-app-react-nina.netlify.app" target="_blanck" class="btn btn-branding-outline"> Check out
-              
-    </a>
+            <a
+              href="https://weather-app-react-nina.netlify.app"
+              target="_blanck"
+              class="btn btn-branding"
+            >
+              Check out
+            </a>
           </div>
         </div>
-        
       </div>
       <div class="row mb-5">
         <div class="col">
           <div class="project-description">
             <h5 class="mb-5">React Dictionary</h5>
             <p class="mb-5 text-muted">
-             Another React project is this dictionary with a search function and two API connections.
+              Another React project is this dictionary with a search function
+              and two API connections.
             </p>
-            <a href="https://chimerical-heliotrope-c6d750.netlify.app" target="_blanck" class="btn btn-branding-outline"> Look it up</a>
+            <a
+              href="https://chimerical-heliotrope-c6d750.netlify.app"
+              target="_blanck"
+              class="btn btn-branding"
+            >
+              Look it up</a
+            >
           </div>
         </div>
         <div class="col d-none d-lg-block">
-          <img src="images/dictionary.png" class="img-fluid img-thumbnail pic" alt="Dictionary Project Preview" />
+          <img
+            src="images/dictionary.png"
+            class="img-fluid img-thumbnail pic"
+            alt="Dictionary Project Preview"
+          />
+        </div>
+     
+      <div class="row mb-5"></div>
+        <div class="col d-none d-lg-block">
+          <img
+            src="images/punschkrapferl.png"
+            class="img-fluid img-thumbnail pic"
+            alt="Punschkrapferl Project Preview"
+          />
+        </div>
+        <div class="col">
+          <div class="project-description">
+            <h5 class="mb-5">Punschkrapferl Page</h5>
+            <p class="mb-5 text-muted">
+              This is one of my first landing pages with HTML, CSS and basic
+              JavaScript. There are muliple pages linked and some alerts and
+              events included.
+            </p>
+            <a
+              href="https://lucid-fermi-e0403f.netlify.app"
+              target="_blanck"
+              class="btn btn-branding"
+            >
+              Visit
+            </a>
+          </div>
         </div>
       </div>
     </div>
+     </div>
 
     <footer>
       <div class="contact-box d-block justify-content-center" id="contact">
@@ -169,16 +193,23 @@
 
         <p class="text-muted text-center">Let's connect!</p>
         <div class="text-center">
-          <a href="mailto:nhaide@live.de"  target="_blanck" class="btn btn-branding contactbutton">Contact me</a>
+          <a
+            href="mailto:nhaide@live.de"
+            target="_blanck"
+            class="btn btn-branding contactbutton"
+            >Contact me</a
+          >
         </div>
+
       </div>
-  
+
       <div class="social-links d-flex justify-content-center mb-5">
-        <a href="https://www.linkedin.com/in/ninahaide/" target="_blank"><i class="fab fa-linkedin"></i></a
-        ><a href="https://github.com/NCH1210/" target="_blank"><i class="fab fa-github"></i></a
+        <a href="https://www.linkedin.com/in/ninahaide/" target="_blank"
+          ><i class="fab fa-linkedin"></i></a
+        ><a href="https://github.com/NCH1210/" target="_blank"
+          ><i class="fab fa-github"></i></a
         ><a href="#contact" target="_blank"><i class="fab fa-facebook"></i></a>
       </div>
     </footer>
-  
   </body>
 </html>

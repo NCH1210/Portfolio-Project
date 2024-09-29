@@ -74,12 +74,13 @@ nav a {
 
 nav a:hover,
 nav li.active a {
-  color: var(--branding-color);
+  color: var(--branding-color) !important;
 }
 
 .hero {
   background: var(--secondary-color);
   text-align: center;
+  height: 80vh;
   padding: 100px 20px;
 }
 
@@ -90,6 +91,8 @@ nav li.active a {
   font-size: 18px;
   line-height: 27px;
   padding: 10px 20px;
+  transition: all 150ms ease-in-out;
+  cursor: pointer;
 }
 
 .btn-branding-outline {
@@ -101,8 +104,18 @@ nav li.active a {
   padding: 15px 30px;
 }
 
+.btn-branding:hover {
+  color: var(--branding-color);
+  background: white;
+  border: 1px solid var(--branding-color);
+}
+
+.fas.fa-angle-double-down {
+  color: var(--branding-color) !important;
+}
 .project-description {
   padding: 120px 60px;
+  text-align: center;
 }
 
 .content {
